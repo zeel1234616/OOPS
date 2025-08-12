@@ -1,0 +1,22 @@
+public class SwapVariables {
+    public static void main(String[] args) {
+        // Initialize two variables
+        int a = 5;
+        int b = 10;
+        
+        // Print initial values
+        System.out.println("Before swapping:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        
+        // Swap variables using a third variable
+        int temp = a;
+        a = b;
+        b = temp;
+        
+        // Print swapped values
+        System.out.println("After swapping:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+    }
+}
