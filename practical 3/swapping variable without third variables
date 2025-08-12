@@ -1,0 +1,22 @@
+public class SwapWithoutTemp {
+    public static void main(String[] args) {
+        // Initialize two variables
+        int a = 5;
+        int b = 10;
+        
+        // Print initial values
+        System.out.println("Before swapping:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        
+        // Swap variables without using a third variable
+        a = a + b; // a now becomes 15
+        b = a - b; // b now becomes 5 (15 - 10)
+        a = a - b; // a now becomes 10 (15 - 5)
+        
+        // Print swapped values
+        System.out.println("After swapping:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+    }
+}
